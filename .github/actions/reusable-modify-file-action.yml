@@ -1,4 +1,0 @@
-name: Reusable Modify File workflow
-uses: damiel/modify-file-action/.github/workflows/modify-file.yml@main
-with:
-    file-path: demo.txt
