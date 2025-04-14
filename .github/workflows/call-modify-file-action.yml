@@ -16,6 +16,8 @@ jobs:
     uses: damiel/modify-file-action/.github/workflows/modify-file.yml@main
     with:
       file-path: demo.txt
+      target-string: ${{ vars.TARGET_STRING }}
+      replacer-string: ${{ vars.REPLACER_STRING }}
 
   build-and-push-docker-image:
     permissions:
